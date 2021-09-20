@@ -1,4 +1,8 @@
-# SheCode Basics
+# SheCodes Basics
+
+# `REPOSITORY IN PROGRESS ...` :carousel_horse: :raising_hand: :tractor:
+
+This repository will containe my notes in the course [SheCodes](https://www.shecodes.io/) FrontEnd Basics , I will sumarize and show my progress in the three weeks.
 
 ## **Weekly summary 01** | HTML and CSS
 
