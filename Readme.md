@@ -71,4 +71,4 @@ Visual Studio Code theme: Dracula or https://vscodethemes.com/
 
 ## Homework Workshop Week 01
 
-<img src="img/img.png" width="425" height="500"/> <img src="img/code.png" width="425" height="500"/>
+<img src="img/img.png" width="400" height="500"/> <img src="img/code.png" width="400" height="500"/>
