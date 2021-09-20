@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .header {
+            color: royalblue;
+            font-size: 40px;
+            padding: 20px;
+            font-weight: bold;
+        }
+        .sub-header {
+            font-size: 20px;
+        }
+        .span-header-left {
+            font-size: 40px;
+        }
+        .span-header-right {
+            font-size: 40px;
+            font-weight: bold;
+        }        
+        .detail-div{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 20px;
+        }
+        .num-left {
+          font-size: 30px;
+        }
+        .num-right {
+          font-weight: bold;
+          font-size: 30px;
+        }
+        .interior{
+          padding: 15px;
+        }
+       
+        .footer{
+            padding: 20px;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 20px;
+        }        
+        
+        li{
+          display: inline;
+          padding: 30px 150px;
+          border-radius: 10px;
+        }
+        li:hover{
+          background: #FFF9EF;
+          }
+        ul{
+          text-align: center;
+          display: inline;
+        }
+        body {
+            text-align: center;
+        }
+        button{
+            padding: 30px 50px;
+            border-radius: 30px;
+            background: blue;
+            color: white;
+            font-weight: bold;
+            box-shadow: 4px 5px 4px grey
+        }
+        button:hover{
+            background:#811333;
+            transition: all 250ms ease-in-out;
+            
+            
+        }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <span class="num-left">🌤</span>
+      <div class="header">Currently 21 in Tokyo</div>
+      <div class="sub-header">
+        <span class="span-header-left">13°</span> /
+        <span class="span-header-right">23°</span>
+      </div>
+      <ul>
+        <div class="detail-div">
+        <li>
+        🌨️ Tomorrow
+         <div class="interior">
+         <span class="num-left">°10  /  </span><span class="num-right">22°</span>
+         </div>
+        </li>
+        </div>
+        <div class="detail-div">
+        <li>
+        ⛅ Saturday
+          <div class="interior">
+            <span class="num-left">°10 /  </span><span class="num-right">17°</span>
+          </div>
+        </li>
+        </div>
+        <div class="detail-div">
+        <li>
+          ☀️ Sunday
+           <div class="interior">
+           <span class="num-left">10° /  </span><span class="num-right">28°</span>
+           </div>
+        </li>
+        </div>
+      </ul>
+    </br>
+      <div><button>Change city</button></div>
+      <div class="footer">Coded by Edith Puclla</div>
+    </div>
+  </body>
+</html>
