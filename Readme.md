@@ -126,3 +126,10 @@ applyButton.addEventListener("click", apply);
 ## Homework Workshop Week 02
 
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/BkN3H7-h65Q)
+
+
+
+https://user-images.githubusercontent.com/58795858/134788772-87da6d9f-819a-4e49-ac83-0d977dc550bf.mp4
+
+
+
