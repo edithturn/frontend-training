@@ -72,3 +72,53 @@ Visual Studio Code theme: Dracula or https://vscodethemes.com/
 ## Homework Workshop Week 01
 
 <img src="img/img.png" width="400" height="500"/> <img src="img/code.png" width="400" height="500"/>
+
+## **Weekly summary 02** | JavaScript
+
+```javascript
+document.querySelectorAll("h2");
+document.querySelectorAll(".col-sm-4");
+```
+
+Change a html elements with input variable clicking a button
+
+```javascript
+function validate(country) {
+  let name = prompt("What is  your name?");
+  let age = prompt("What is  your age?");
+  let welcomeMessage = document.querySelector("h1");
+
+  if (age > 18) {
+    welcomeMessage.innerHTML = "Hi " + name + " welcome to" + " SheCodes 👩‍💻";
+  } else {
+    welcomeMessage.innerHTML =
+      "Sorry " + name + " you can't apply to" + " SheCodes 👩‍💻";
+  }
+}
+let applyButton = document.querySelector("button");
+applyButton.addEventListener("click", validate);
+```
+
+Refactoring
+
+```javascript
+function canApply() {
+  let age = prompt("What is  your age?");
+  return age >= 18;
+}
+function updateHeader(newHeading) {
+  let heading = document.querySelector("h1");
+  heading.innerHTML = newHeading;
+}
+function apply() {
+  let name = prompt("What is  your name?");
+  if (canApply()) {
+    updateHeader(`Hi ${name}  welcome to SheCodes 👩‍💻`);
+  } else {
+    updateHeader(`Sorry ${name}  you can't apply to SheCodes 👩‍💻`);
+  }
+}
+
+let applyButton = document.querySelector("button");
+applyButton.addEventListener("click", apply);
+```
