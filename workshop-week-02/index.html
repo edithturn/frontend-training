@@ -67,18 +67,21 @@
       <button>Apply Now</button>
     </section>
     <script>
-      function canSpeakPortuguese(country) {
-        if (
-          country.toLowerCase() == "portuguese" ||
-          country.toLowerCase() == "brazil"
-        ) {
-          alert("You speak Portuguese");
+      function validate(country) {
+        let name = prompt("What is  your name?");
+        let age = prompt("What is  your age?");
+        let welcomeMessage = document.querySelector("h1");
+
+        if (age > 18) {
+          welcomeMessage.innerHTML =
+            "Hi " + name + " welcome to" + " SheCodes 👩‍💻";
         } else {
-          alert("Go learn Portuguese!");
+          welcomeMessage.innerHTML =
+            "Sorry " + name + " you can't apply to" + " SheCodes 👩‍💻";
         }
       }
-      let country = prompt("What country are you from?");
-      canSpeakPortuguese(country);
+      let applyButton = document.querySelector("button");
+      applyButton.addEventListener("click", validate);
     </script>
   </body>
 </html>
