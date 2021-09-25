@@ -122,3 +122,7 @@ function apply() {
 let applyButton = document.querySelector("button");
 applyButton.addEventListener("click", apply);
 ```
+
+## Homework Workshop Week 02
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/BkN3H7-h65Q)
