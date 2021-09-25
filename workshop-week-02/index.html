@@ -67,21 +67,25 @@
       <button>Apply Now</button>
     </section>
     <script>
-      function validate(country) {
-        let name = prompt("What is  your name?");
+      function canApply() {
         let age = prompt("What is  your age?");
-        let welcomeMessage = document.querySelector("h1");
-
-        if (age > 18) {
-          welcomeMessage.innerHTML =
-            "Hi " + name + " welcome to" + " SheCodes 👩‍💻";
+        return age >= 18;
+      }
+      function updateHeader(newHeading) {
+        let heading = document.querySelector("h1");
+        heading.innerHTML = newHeading;
+      }
+      function apply() {
+        let name = prompt("What is  your name?");
+        if (canApply()) {
+          updateHeader(`Hi ${name}  welcome to SheCodes 👩‍💻`);
         } else {
-          welcomeMessage.innerHTML =
-            "Sorry " + name + " you can't apply to" + " SheCodes 👩‍💻";
+          updateHeader(`Sorry ${name}  you can't apply to SheCodes 👩‍💻`);
         }
       }
+
       let applyButton = document.querySelector("button");
-      applyButton.addEventListener("click", validate);
+      applyButton.addEventListener("click", apply);
     </script>
   </body>
 </html>
