@@ -125,11 +125,24 @@ applyButton.addEventListener("click", apply);
 
 ## Homework Workshop Week 02
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/BkN3H7-h65Q)
-
-
-
 https://user-images.githubusercontent.com/58795858/134788772-87da6d9f-819a-4e49-ac83-0d977dc550bf.mp4
 
+JavaScript Code
 
-
+```javascript
+function updateHeader(newHeader) {
+  let header = document.querySelector("h1");
+  header.innerHTML = newHeader;
+}
+function evaluateTemperature() {
+  let city = prompt("What city do you life in?");
+  let temp = prompt("What is the temperature?");
+  if (temp < 0) {
+    updateHeader(`😩 </br> Currently ${temp}° in ${city} `);
+  } else {
+    updateHeader(`😃 </br> Currently ${temp}° in ${city} `);
+  }
+}
+let buttonApply = document.querySelector("button");
+buttonApply.addEventListener("click", evaluateTemperature);
+```
