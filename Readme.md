@@ -125,9 +125,9 @@ applyButton.addEventListener("click", apply);
 
 ## Homework Workshop Week 02
 
-<p align="center">
-  <video src="https://user-images.githubusercontent.com/58795858/134788952-c98c5160-8acd-4219-971d-850edd3684b6.mp4">
-</p>
+
+https://user-images.githubusercontent.com/58795858/134790415-61f4b57c-aae6-44a6-b71f-8c40ac3beceb.mp4
+
 
 JavaScript Code
 
