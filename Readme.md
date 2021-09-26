@@ -125,7 +125,9 @@ applyButton.addEventListener("click", apply);
 
 ## Homework Workshop Week 02
 
-![](img/ezgif.com-gif-maker.gif)
+<p align="center">
+  <img width="450" src="img/ezgif.com-gif-maker.gif" alt="Javascript">
+</p>
 
 JavaScript Code
 
