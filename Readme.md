@@ -125,7 +125,9 @@ applyButton.addEventListener("click", apply);
 
 ## Homework Workshop Week 02
 
-https://user-images.githubusercontent.com/58795858/134788844-f3e154a5-b20a-4762-8d7c-38ffeab33e06.mp4
+
+https://user-images.githubusercontent.com/58795858/134788952-c98c5160-8acd-4219-971d-850edd3684b6.mp4
+
 
 JavaScript Code
 
