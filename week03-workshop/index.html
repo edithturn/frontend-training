@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            background-color:#DFE1E0;
+        }
+        
+        h1{
+            border:1px solid #D2BBC5;
+            text-align: center;   
+            border-radius: 10px;         
+        }
+        h2{
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        img:hover{
+            background:none;
+        }
+
+        hr{
+            border: 0.01px solid #D2BBC5;
+        }
+        p{
+            font-size: 16px;
+        }
+        button{
+            border-radius: 4px;
+            background-color: #41A2A3;
+            color: white;
+            text-align: center;
+            display: block;
+            margin: 20px auto;
+            size: 40px;
+            padding: 15px 20px;
+            font-size: 18px;
+            border: none;
+
+        }
+        span{
+            font-weight:100px
+        }
+        .container{
+            max-width: 600px;
+            margin: 0 auto;
+
+        }
+        .footer{
+            text-decoration: underline;
+            color: #942223;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Edith Puclla</h1>
+    <h2>Software Engineer</h2>
+    <hr />
+    <img src="../img/edi2.jpg" alt="image" /></img>
+    <hr />
+    <p>I was born in the mountains of <strong>Ayacucho in Peru,</strong> 
+        I studied Computer and Systems Engineering 
+        after my graduation I worked for international companies like <em>TCS, Accenture and Everis.</em>
+        I gained experience in software development, and was part of awesome teams to develop
+        innovational projects, my last experience was in <em>BlazingSQL a Startup from San Francisco</em> where I had the opportunity to implement DevOps from scratch.
+        <br />
+        <br />
+        The last year I studied C programming in 42 Silicon Valley in  <strong>California.</strong>
+        Now I am available to hear about new opportunities specially for <span>Software Developer Backend or Site Reliability Engineer.</span>
+        Do not hesitate to contact me if you have any questions or or do you want to have a virtual coffee.
+
+    </p>
+    <p>
+        <a class="footer" href="https://www.linkedin.com/in/edithpuclla/" 
+        target="_black">Edith Puclla Linkedin Profile
+        </a>
+    </p>
+    <button>Contact with Me</button>
+    </div>
+     <script>
+         function showmessage(){
+             let name = prompt("What is your name?") 
+             alert(`Hello ${name}, we will be in touch`)
+         }
+         let button = document.querySelector("button")
+         button.addEventListener("click", showmessage)
+
+     </script>
+  </body>
+</html>
